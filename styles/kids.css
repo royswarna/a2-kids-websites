@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font
+ {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.display-flex{display: flex;}
+.school{
+  font-weight: bold;
+  font-size: 32px;
+}
+.bg-light{background-color: white;}
+.navbar{
+  justify-content: space-between;
+text-align: center;
+align-items: center;}
+.logo{
+  width: 62px;
+  height: 62px;
+}
+  
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0px;
+  padding: 0;
+}
+.box{
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgb(224, 173, 20);
+  border: none;
+color: white;
+font-weight: 600;
+font-size: 1.25rem;
+}
+.nav-links{
+  margin: 0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-item1{
+  color:orange ;
+  
+}
+.nav-item2{color: rgb(59, 148, 226);}
+.nav-item3{color: aqua;}
+.nav-item4{color: blueviolet;}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner-title{
+margin: 0 0 20px;
+font-weight: bold;
+font-size: 4rem;
+}
+.banner{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+padding: 20px;
+background-color: white;}
+.banner > *{
+  margin: 0 25px;
+}
+.banner-content{
+  max: width 640px; 
+  margin: 0 auto;
+  
+  
+}
+.btn-primary{
+padding: 10px 15px;
+color: white;
+background-color: black;
+border-radius: 5px;
+font-size: 1.25rem; 
+font-weight: bold;
+border: none;
+}
+.banner-image{
+  width:100% ;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+  
+ @media screen and (max-width: 576px {
+  .navbar, .nav-links, .banner{
+    flex-direction: column;}
+  
+ }
+
